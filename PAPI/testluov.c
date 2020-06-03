@@ -34,7 +34,6 @@ uint64_t rdtsc(){
 }
 #define TIC printf("\n"); uint64_t cl = rdtsc();
 #define TOC(A) printf("%s cycles = %llu \n",#A ,rdtsc() - cl); cl = rdtsc();
-
 /*
 	Tests the execution of the keypair generation, signature generation and signature verification algorithms and prints timing results
 */
